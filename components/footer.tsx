@@ -18,7 +18,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-8">
           {/* Logo */}
           <div>
-            <Image src="/logo.png" alt="Next Prodigy" width={300} height={120} className="w-auto h-24" />
+            <Image src="/logo.png" alt="Next Prodigy" width={400} height={220} className="w-auto h-24" />
           </div>
 
           {/* Quick Links */}
