@@ -133,7 +133,7 @@ export default function ProductPage({ params }: ProductPageProps) {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto space-y-8">
             {product.description.map((paragraph, index) => (
-              <p key={index} className="text-lg text-gray-300 leading-relaxed">
+              <p key={index} className="text-xl text-gray-300 leading-relaxed">
                 {paragraph}
               </p>
             ))}

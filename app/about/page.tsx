@@ -18,7 +18,7 @@ export default function AboutPage() {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="relative container mx-auto px-4">
+        <div className="relative container mx-auto px-4 mt-20">
           <div className="flex flex-col items-start max-w-4xl">
             <div className="flex flex-col md:flex-row items-start md:items-center gap-4 md:gap-8 mb-6">
               <div className="text-4xl md:text-[72px] font-bold text-[#4B8BF4] leading-tight">WE ARE</div>
@@ -37,19 +37,9 @@ export default function AboutPage() {
             </p>
           </div>
         </div>
-      </section>
 
-      {/* What We Do Section */}
-      <section
-        className="relative py-16 md:py-20"
-        style={{
-          backgroundImage: "url('/about-2.png')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-        }}
-      >
-        <div className="relative container mx-auto px-4">
+      
+        <div className="relative container mx-auto px-4 mt-20">
           <div className="flex flex-col items-center md:items-end text-center md:text-right">
             <h2 className="text-4xl md:text-6xl font-bold mb-4 md:mb-6">
               <span className="text-[#4B8BF4]">WHAT WE DO</span>

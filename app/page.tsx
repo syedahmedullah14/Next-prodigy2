@@ -68,6 +68,48 @@ const allProducts = [
     slug: "fortinet",
     logoPath: "/logos/fortinet.svg",
     category: "Security & Wireless"
+  },
+  {
+    name: "Aruba Networks",
+    description: "Enterprise-grade wireless networking solutions including access points, switches, and network management tools for secure and reliable connectivity.",
+    slug: "aruba",
+    logoPath: "/logos/aruba.svg",
+    category: "Networking Solutions"
+  },
+  {
+    name: "Palo Alto Networks",
+    description: "Next-generation security platforms providing advanced threat prevention and comprehensive network security for modern enterprises.",
+    slug: "palo-alto",
+    logoPath: "/logos/palo-alto.svg",
+    category: "Security & Wireless"
+  },
+  {
+    name: "VMware",
+    description: "Virtualization and cloud computing software for optimized data center operations and digital workspace solutions.",
+    slug: "vmware",
+    logoPath: "/logos/vmware.svg",
+    category: "Enterprise Infrastructure"
+  },
+  {
+    name: "NetApp",
+    description: "Data management and storage solutions enabling organizations to accelerate digital transformation with cloud-led innovation.",
+    slug: "netapp",
+    logoPath: "/logos/netapp.svg",
+    category: "Enterprise Infrastructure"
+  },
+  {
+    name: "F5 Networks",
+    description: "Application delivery and security solutions ensuring fast, secure, and reliable access to applications and data.",
+    slug: "f5",
+    logoPath: "/logos/f5.svg",
+    category: "Security & Wireless"
+  },
+  {
+    name: "Check Point",
+    description: "Comprehensive security solutions protecting organizations from cyber threats with advanced firewall and threat prevention capabilities.",
+    slug: "checkpoint",
+    logoPath: "/logos/checkpoint.svg",
+    category: "Security & Wireless"
   }
 ]
 
@@ -86,27 +128,29 @@ export default function HomePage() {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="relative container mx-auto px-4 pt-16">
+        <div className="relative container mx-auto px-4 pt-32">
           <div className="max-w-4xl">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-              <span className="text-blue-400">FUTURE-READY</span> IT INFRASTRUCTURE
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight">
+              <span className="text-blue-400">FUTURE-READY</span>
+              <br />
+              IT INFRASTRUCTURE
               <br />
               STARTS HERE
             </h1>
-            <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl leading-relaxed">
+            <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl leading-relaxed">
               At Next Prodigy, We help businesses scale and secure their IT environments with enterprise-grade hardware,
               networking, and cybersecurity solutions.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-6">
               <Button
                 asChild
-                className="bg-transparent border-2 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white px-8 py-3 text-lg"
+                className="bg-transparent border-2 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white px-10 py-6 text-xl"
               >
                 <Link href="/products">OUR PRODUCTS</Link>
               </Button>
               <Button
                 asChild
-                className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 text-lg"
+                className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-slate-900 px-10 py-6 text-xl"
               >
                 <Link href="/contact">REACH OUT TO US</Link>
               </Button>
@@ -117,7 +161,7 @@ export default function HomePage() {
 
       {/* Products Section */}
       <section
-        className="relative py-20"
+        className="relative py-32"
         style={{
           backgroundImage: "url('/products.png')",
           backgroundSize: "cover",
@@ -126,8 +170,8 @@ export default function HomePage() {
         }}
       >
         <div className="relative container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+          <div className="text-center mb-20">
+            <h2 className="text-5xl md:text-6xl font-bold text-white mb-8">
               OUR <span className="text-blue-400">PRODUCTS</span>
             </h2>
             <p className="text-xl text-gray-300 max-w-4xl mx-auto">
