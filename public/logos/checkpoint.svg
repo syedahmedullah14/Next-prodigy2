@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <path d="M40 10h120v40H40z" fill="#FF0000"/>
+  <text x="100" y="35" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Check Point</text>
+</svg> 

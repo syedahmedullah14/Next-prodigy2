@@ -79,6 +79,46 @@ const productDetails = {
       "Lenovo offers powerful computing infrastructure including ThinkSystem servers, edge computing devices, and enterprise workstations. Their products are known for reliability, security, and energy efficiency, making them a smart choice for data centers and IT modernization.",
       "We provide Lenovo solutions to businesses that require scalable performance with low TCO. Whether for virtualization, analytics, or high-density compute, Lenovo delivers the flexibility and control today's IT environments demand."
     ]
+  },
+  mikrotik: {
+    name: "MikroTik",
+    logoPath: "/logos/mikrotik.svg",
+    description: [
+      "MikroTik specializes in cost-effective, feature-rich networking equipment suitable for ISPs, SMBs, and tech-forward enterprises. Known for its versatile RouterOS and configurable routers and access points, MikroTik solutions provide customizability, reliability, and performance for dynamic network environments.",
+      "We help organizations implement MikroTik solutions to build efficient and scalable networks without compromising on features or performance. Whether you need routing, switching, or wireless solutions, MikroTik offers enterprise capabilities at competitive price points."
+    ]
+  },
+  polycom: {
+    name: "Polycom (HP | Poly)",
+    logoPath: "/logos/polycom.svg",
+    description: [
+      "Polycom (now part of HP | Poly) offers industry-leading collaboration technology including video conferencing systems, conference phones, and unified communications hardware. Ideal for hybrid teams and global enterprises, Polycom products enable clear, secure, and productive real-time communication across platforms and devices.",
+      "We provide Polycom solutions to help organizations create seamless collaboration experiences, whether in conference rooms, at desks, or in remote settings. Their professional-grade audio and video quality ensures every participant can communicate effectively."
+    ]
+  },
+  quantum: {
+    name: "Quantum",
+    logoPath: "/logos/quantum.svg",
+    description: [
+      "Quantum provides intelligent data storage, protection, and archiving solutions designed for high-volume and high-value data environments. From tape storage and backup appliances to object storage and video surveillance archiving, Quantum helps businesses manage their data lifecycle with performance, scalability, and compliance.",
+      "We implement Quantum solutions for organizations that need reliable, long-term data management and protection. Their specialized storage solutions are particularly valuable for industries dealing with large media files, research data, or compliance-driven archiving requirements."
+    ]
+  },
+  sophos: {
+    name: "Sophos",
+    logoPath: "/logos/sophos.svg",
+    description: [
+      "Sophos delivers an integrated cybersecurity platform with endpoint protection, firewalls, email security, and cloud workload protection. With centralized management via Sophos Central, businesses can deploy AI-powered security across all environments to proactively prevent, detect, and respond to threats in real time.",
+      "We help organizations implement Sophos security solutions to create a comprehensive defense strategy. Their synchronized security approach ensures all security components work together to provide enhanced protection and automated threat response."
+    ]
+  },
+  ubiquiti: {
+    name: "Ubiquiti",
+    logoPath: "/logos/ubiquiti.svg",
+    description: [
+      "Ubiquiti offers high-performance wireless access points, switches, and routers designed for scalable network deployments. Known for its UniFi platform, Ubiquiti enables seamless network configuration, management, and monitoring — making it ideal for businesses seeking a balance between enterprise performance and cost-efficiency.",
+      "We deploy Ubiquiti solutions for organizations that need reliable, manageable networking infrastructure without excessive complexity. Their unified management platform and extensive product ecosystem provide excellent value for businesses of all sizes."
+    ]
   }
 }
 

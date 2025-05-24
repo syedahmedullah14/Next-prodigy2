@@ -110,6 +110,41 @@ const allProducts = [
     slug: "checkpoint",
     logoPath: "/logos/checkpoint.svg",
     category: "Security & Wireless"
+  },
+  {
+    name: "MikroTik",
+    description: "Cost-effective, feature-rich networking equipment with versatile RouterOS for ISPs and enterprises.",
+    slug: "mikrotik",
+    logoPath: "/logos/mikrotik.svg",
+    category: "Networking Solutions"
+  },
+  {
+    name: "Polycom (HP | Poly)",
+    description: "Professional-grade video conferencing and unified communications solutions for modern collaboration.",
+    slug: "polycom",
+    logoPath: "/logos/polycom.svg",
+    category: "Enterprise Infrastructure"
+  },
+  {
+    name: "Quantum",
+    description: "Specialized storage and data protection solutions for high-volume environments and long-term archiving.",
+    slug: "quantum",
+    logoPath: "/logos/quantum.svg",
+    category: "Enterprise Infrastructure"
+  },
+  {
+    name: "Sophos",
+    description: "Integrated cybersecurity platform with AI-powered protection for endpoints, networks, and cloud workloads.",
+    slug: "sophos",
+    logoPath: "/logos/sophos.svg",
+    category: "Security & Wireless"
+  },
+  {
+    name: "Ubiquiti",
+    description: "High-performance networking solutions with unified management through the UniFi platform.",
+    slug: "ubiquiti",
+    logoPath: "/logos/ubiquiti.svg",
+    category: "Networking Solutions"
   }
 ]
 

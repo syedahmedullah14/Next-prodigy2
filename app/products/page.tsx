@@ -67,6 +67,83 @@ const allProducts = [
     slug: "fortinet",
     logoPath: "/logos/fortinet.svg",
     category: "Security & Wireless"
+  },
+  {
+    name: "Aruba Networks",
+    description: "As a leader in wireless and edge networking, Aruba delivers fast, intelligent, and secure connectivity. We offer Aruba Wi-Fi 6 access points, secure SD-WAN solutions, network access control, and cloud-managed networking tools that transform the way teams connect and collaborate — especially in mobile-first and hybrid office environments.",
+    slug: "aruba",
+    logoPath: "/logos/aruba.svg",
+    category: "Networking Solutions"
+  },
+  {
+    name: "Palo Alto Networks",
+    description: "Next-generation security platforms providing advanced threat prevention and comprehensive network security for modern enterprises.",
+    slug: "palo-alto",
+    logoPath: "/logos/palo-alto.svg",
+    category: "Security & Wireless"
+  },
+  {
+    name: "VMware",
+    description: "Virtualization and cloud computing software for optimized data center operations and digital workspace solutions.",
+    slug: "vmware",
+    logoPath: "/logos/vmware.svg",
+    category: "Enterprise Infrastructure"
+  },
+  {
+    name: "NetApp",
+    description: "Data management and storage solutions enabling organizations to accelerate digital transformation with cloud-led innovation.",
+    slug: "netapp",
+    logoPath: "/logos/netapp.svg",
+    category: "Enterprise Infrastructure"
+  },
+  {
+    name: "F5 Networks",
+    description: "Application delivery and security solutions ensuring fast, secure, and reliable access to applications and data.",
+    slug: "f5",
+    logoPath: "/logos/f5.svg",
+    category: "Security & Wireless"
+  },
+  {
+    name: "Check Point",
+    description: "Comprehensive security solutions protecting organizations from cyber threats with advanced firewall and threat prevention capabilities.",
+    slug: "checkpoint",
+    logoPath: "/logos/checkpoint.svg",
+    category: "Security & Wireless"
+  },
+  {
+    name: "MikroTik",
+    description: "Cost-effective, feature-rich networking equipment with versatile RouterOS for ISPs and enterprises.",
+    slug: "mikrotik",
+    logoPath: "/logos/mikrotik.svg",
+    category: "Networking Solutions"
+  },
+  {
+    name: "Polycom (HP | Poly)",
+    description: "Professional-grade video conferencing and unified communications solutions for modern collaboration.",
+    slug: "polycom",
+    logoPath: "/logos/polycom.svg",
+    category: "Enterprise Infrastructure"
+  },
+  {
+    name: "Quantum",
+    description: "Specialized storage and data protection solutions for high-volume environments and long-term archiving.",
+    slug: "quantum",
+    logoPath: "/logos/quantum.svg",
+    category: "Enterprise Infrastructure"
+  },
+  {
+    name: "Sophos",
+    description: "Integrated cybersecurity platform with AI-powered protection for endpoints, networks, and cloud workloads.",
+    slug: "sophos",
+    logoPath: "/logos/sophos.svg",
+    category: "Security & Wireless"
+  },
+  {
+    name: "Ubiquiti",
+    description: "High-performance networking solutions with unified management through the UniFi platform.",
+    slug: "ubiquiti",
+    logoPath: "/logos/ubiquiti.svg",
+    category: "Networking Solutions"
   }
 ]
 
