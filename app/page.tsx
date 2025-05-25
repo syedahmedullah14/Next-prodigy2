@@ -1,9 +1,27 @@
+"use client"
+
 import Navigation from "@/components/navigation"
 import Footer from "@/components/footer"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import ContactForm from "@/components/contact-form"
 import AnimatedProductCard from "@/components/animated-product-card"
+import AnimatedWhyChooseCard from "@/components/animated-why-choose-card"
+import { motion } from "framer-motion"
+
+const fadeInUp = {
+  initial: { opacity: 0, y: 20 },
+  animate: { opacity: 1, y: 0 },
+  transition: { duration: 0.5 }
+}
+
+const staggerContainer = {
+  animate: {
+    transition: {
+      staggerChildren: 0.2
+    }
+  }
+}
 
 const allProducts = [
   {
@@ -154,7 +172,10 @@ export default function HomePage() {
       <Navigation />
 
       {/* Hero Section */}
-      <section
+      <motion.section
+        initial={{ opacity: 1 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
         className="relative min-h-screen flex items-center"
         style={{
           backgroundImage: "url('/overview.png')",
@@ -165,37 +186,56 @@ export default function HomePage() {
       >
         <div className="relative container mx-auto px-4 pt-32">
           <div className="max-w-4xl">
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight">
+            <motion.h1 
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight"
+            >
               <span className="text-blue-400">FUTURE-READY</span>
               <br />
               IT INFRASTRUCTURE
               <br />
               STARTS HERE
-            </h1>
-            <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl leading-relaxed">
+            </motion.h1>
+            <motion.p 
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.4 }}
+              className="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl leading-relaxed"
+            >
               At Next Prodigy, We help businesses scale and secure their IT environments with enterprise-grade hardware,
               networking, and cybersecurity solutions.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-6">
+            </motion.p>
+            <motion.div 
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.6 }}
+              className="flex flex-col sm:flex-row gap-6"
+            >
               <Button
                 asChild
-                className="bg-transparent border-2 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white px-10 py-6 text-xl"
+                className="bg-transparent border-2 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white px-10 py-6 text-xl transition-all duration-300"
               >
                 <Link href="/products">OUR PRODUCTS</Link>
               </Button>
               <Button
                 asChild
-                className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-slate-900 px-10 py-6 text-xl"
+                className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-slate-900 px-10 py-6 text-xl transition-all duration-300"
               >
                 <Link href="/contact">REACH OUT TO US</Link>
               </Button>
-            </div>
+            </motion.div>
           </div>
         </div>
-      </section>
+      </motion.section>
 
       {/* Products Section */}
-      <section
+      <motion.section
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 1 }}
         className="relative py-32"
         style={{
           backgroundImage: "url('/products.png')",
@@ -205,28 +245,44 @@ export default function HomePage() {
         }}
       >
         <div className="relative container mx-auto px-4">
-          <div className="text-center mb-20">
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            className="text-center mb-20"
+          >
             <h2 className="text-5xl md:text-6xl font-bold text-white mb-8">
               OUR <span className="text-blue-400">PRODUCTS</span>
             </h2>
             <p className="text-xl text-gray-300 max-w-4xl mx-auto">
               Discover our comprehensive range of enterprise-grade solutions from industry-leading manufacturers.
             </p>
-          </div>
+          </motion.div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <motion.div 
+            variants={staggerContainer}
+            initial="initial"
+            whileInView="animate"
+            viewport={{ once: true }}
+            className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
+          >
             {allProducts.map((product) => (
               <AnimatedProductCard
                 key={product.slug}
                 {...product}
               />
             ))}
-          </div>
+          </motion.div>
         </div>
-      </section>
+      </motion.section>
 
       {/* Why Choose Section */}
-      <section
+      <motion.section
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 1 }}
         className="relative py-20"
         style={{
           backgroundImage: "url('/whyus.png')",
@@ -236,7 +292,13 @@ export default function HomePage() {
         }}
       >
         <div className="relative container mx-auto px-4">
-          <div className="text-center mb-12">
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            className="text-center mb-12"
+          >
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
               WHY CHOOSE <span className="text-blue-400">NEXT PRODIGY</span>
             </h2>
@@ -244,47 +306,51 @@ export default function HomePage() {
               At Next Prodigy, we're more than just an IT distributor — we're your technology partner. Here's what sets
               us apart:
             </p>
-          </div>
+          </motion.div>
 
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
-            <div className="bg-slate-800/30 backdrop-blur-sm p-8 rounded-lg border border-slate-700">
-              <h3 className="text-blue-400 text-2xl font-bold mb-4">Top-Tier Partnerships</h3>
-              <p className="text-gray-300">
-                We work directly with trusted brands to offer the best IT products available in the global market.
-              </p>
-            </div>
-            <div className="bg-slate-800/30 backdrop-blur-sm p-8 rounded-lg border border-slate-700">
-              <h3 className="text-blue-400 text-2xl font-bold mb-4">Tailored Recommendations</h3>
-              <p className="text-gray-300">
-                We don't just sell — we advise, aligning our solutions to your exact business needs.
-              </p>
-            </div>
-            <div className="bg-slate-800/30 backdrop-blur-sm p-8 rounded-lg border border-slate-700">
-              <h3 className="text-blue-400 text-2xl font-bold mb-4">Fast & Reliable Fulfillment</h3>
-              <p className="text-gray-300">
-                Your time matters. We ensure timely delivery and ongoing support for every order.
-              </p>
-            </div>
-          </div>
+          <motion.div 
+            variants={staggerContainer}
+            initial="initial"
+            whileInView="animate"
+            viewport={{ once: true }}
+            className="grid md:grid-cols-3 gap-8 mb-12"
+          >
+            <AnimatedWhyChooseCard
+              title="Top-Tier Partnerships"
+              description="We work directly with trusted brands to offer the best IT products available in the global market."
+            />
+            <AnimatedWhyChooseCard
+              title="Tailored Recommendations"
+              description="We don't just sell — we advise, aligning our solutions to your exact business needs."
+            />
+            <AnimatedWhyChooseCard
+              title="Fast & Reliable Fulfillment"
+              description="Your time matters. We ensure timely delivery and ongoing support for every order."
+            />
+          </motion.div>
 
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-slate-800/30 backdrop-blur-sm p-8 rounded-lg border border-slate-700">
-              <h3 className="text-blue-400 text-2xl font-bold mb-4">Expertise You Can Trust</h3>
-              <p className="text-gray-300">Our team understands both the products and the problems they solve.</p>
-            </div>
-            <div className="bg-slate-800/30 backdrop-blur-sm p-8 rounded-lg border border-slate-700">
-              <h3 className="text-blue-400 text-2xl font-bold mb-4">Scalability for the Future</h3>
-              <p className="text-gray-300">Our solutions are designed to grow with your business, not hold it back.</p>
-            </div>
-            <div className="bg-slate-800/30 backdrop-blur-sm p-8 rounded-lg border border-slate-700">
-              <h3 className="text-blue-400 text-2xl font-bold mb-4">End-to-End Infrastructure Support</h3>
-              <p className="text-gray-300">
-                We assist through every stage — from product selection to post-deployment service.
-              </p>
-            </div>
-          </div>
+          <motion.div 
+            variants={staggerContainer}
+            initial="initial"
+            whileInView="animate"
+            viewport={{ once: true }}
+            className="grid md:grid-cols-3 gap-8"
+          >
+            <AnimatedWhyChooseCard
+              title="Expertise You Can Trust"
+              description="Our team understands both the products and the problems they solve."
+            />
+            <AnimatedWhyChooseCard
+              title="Scalability for the Future"
+              description="Our solutions are designed to grow with your business, not hold it back."
+            />
+            <AnimatedWhyChooseCard
+              title="End-to-End Infrastructure Support"
+              description="We assist through every stage — from product selection to post-deployment service."
+            />
+          </motion.div>
         </div>
-      </section>
+      </motion.section>
 
       <ContactForm />
 
