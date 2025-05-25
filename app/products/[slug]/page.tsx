@@ -50,7 +50,7 @@ const productDetails = {
   },
   "cisco-meraki": {
     name: "Cisco Meraki",
-    logoPath: "/logos/cisco-meraki.svg",
+    logoPath: "/logos/cisco-meraki.png",
     description: [
       "Cisco Meraki delivers cloud-managed IT that simplifies network configuration, monitoring, and scaling. With Meraki's web-based dashboard, managing switches, firewalls, access points, and security cameras becomes intuitive and streamlined across distributed sites.",
       "At Next Prodigy, we implement Meraki solutions for clients seeking fast deployment, real-time insights, and reliable performance. Perfect for growing businesses, remote operations, and organizations with multiple locations — Meraki makes enterprise IT management effortless and efficient."
@@ -58,7 +58,7 @@ const productDetails = {
   },
   juniper: {
     name: "Juniper",
-    logoPath: "/logos/juniper.svg",
+    logoPath: "/logos/juniper.png",
     description: [
       "Juniper Networks provides high-performance networking and security products for enterprises and service providers. Their switches, routers, and security platforms enable intelligent, automated, and secure infrastructure at scale.",
       "Next Prodigy partners with Juniper to deliver enterprise-grade solutions that optimize performance and reduce operational complexity. Juniper's software-defined networking and strong security framework are ideal for data-driven organizations looking to modernize their core infrastructure."
@@ -74,7 +74,7 @@ const productDetails = {
   },
   lenovo: {
     name: "Lenovo",
-    logoPath: "/logos/lenovo.svg",
+    logoPath: "/logos/lenovo.png",
     description: [
       "Lenovo offers powerful computing infrastructure including ThinkSystem servers, edge computing devices, and enterprise workstations. Their products are known for reliability, security, and energy efficiency, making them a smart choice for data centers and IT modernization.",
       "We provide Lenovo solutions to businesses that require scalable performance with low TCO. Whether for virtualization, analytics, or high-density compute, Lenovo delivers the flexibility and control today's IT environments demand."
@@ -82,7 +82,7 @@ const productDetails = {
   },
   mikrotik: {
     name: "MikroTik",
-    logoPath: "/logos/mikrotik.svg",
+    logoPath: "/logos/mikrotik.png",
     description: [
       "MikroTik specializes in cost-effective, feature-rich networking equipment suitable for ISPs, SMBs, and tech-forward enterprises. Known for its versatile RouterOS and configurable routers and access points, MikroTik solutions provide customizability, reliability, and performance for dynamic network environments.",
       "We help organizations implement MikroTik solutions to build efficient and scalable networks without compromising on features or performance. Whether you need routing, switching, or wireless solutions, MikroTik offers enterprise capabilities at competitive price points."
@@ -98,7 +98,7 @@ const productDetails = {
   },
   quantum: {
     name: "Quantum",
-    logoPath: "/logos/quantum.svg",
+    logoPath: "/logos/quantum.png",
     description: [
       "Quantum provides intelligent data storage, protection, and archiving solutions designed for high-volume and high-value data environments. From tape storage and backup appliances to object storage and video surveillance archiving, Quantum helps businesses manage their data lifecycle with performance, scalability, and compliance.",
       "We implement Quantum solutions for organizations that need reliable, long-term data management and protection. Their specialized storage solutions are particularly valuable for industries dealing with large media files, research data, or compliance-driven archiving requirements."
@@ -106,7 +106,7 @@ const productDetails = {
   },
   sophos: {
     name: "Sophos",
-    logoPath: "/logos/sophos.svg",
+    logoPath: "/logos/sophos.png",
     description: [
       "Sophos delivers an integrated cybersecurity platform with endpoint protection, firewalls, email security, and cloud workload protection. With centralized management via Sophos Central, businesses can deploy AI-powered security across all environments to proactively prevent, detect, and respond to threats in real time.",
       "We help organizations implement Sophos security solutions to create a comprehensive defense strategy. Their synchronized security approach ensures all security components work together to provide enhanced protection and automated threat response."
@@ -118,6 +118,46 @@ const productDetails = {
     description: [
       "Ubiquiti offers high-performance wireless access points, switches, and routers designed for scalable network deployments. Known for its UniFi platform, Ubiquiti enables seamless network configuration, management, and monitoring — making it ideal for businesses seeking a balance between enterprise performance and cost-efficiency.",
       "We deploy Ubiquiti solutions for organizations that need reliable, manageable networking infrastructure without excessive complexity. Their unified management platform and extensive product ecosystem provide excellent value for businesses of all sizes."
+    ]
+  },
+  "palo-alto": {
+    name: "Palo Alto Networks",
+    logoPath: "/logos/palo.png",
+    description: [
+      "Palo Alto Networks is a global leader in cybersecurity, delivering cutting-edge solutions that secure networks, clouds, and endpoints through AI-powered threat intelligence and automation. Their next-generation firewalls and advanced threat prevention tools help organizations build a resilient, zero-trust architecture across distributed environments.",
+      "Whether you're protecting cloud-native apps, remote workforces, or critical enterprise data, Palo Alto's platform provides centralized visibility, real-time response, and policy-based control — making it a trusted choice for businesses focused on proactive, intelligent security."
+    ]
+  },
+  vmware: {
+    name: "VMware",
+    logoPath: "/logos/vmware.svg",
+    description: [
+      "VMware is the industry pioneer in virtualization and cloud infrastructure, helping businesses modernize their IT environments with agility and cost-efficiency. From data center virtualization to cloud management platforms, VMware enables seamless operations across hybrid and multi-cloud ecosystems.",
+      "With solutions like vSphere, NSX, and VMware Cloud, enterprises gain the ability to scale workloads, enhance application delivery, and improve operational efficiency while maintaining full control and security across environments."
+    ]
+  },
+  netapp: {
+    name: "NetApp",
+    logoPath: "/logos/netapp.svg",
+    description: [
+      "NetApp provides intelligent data storage and management solutions that help organizations harness, protect, and optimize their data — whether on-prem, in the cloud, or across hybrid environments. With a focus on simplicity, scalability, and speed, NetApp delivers robust infrastructure built for demanding workloads.",
+      "Their ONTAP software, AFF systems, and cloud integrations empower businesses to accelerate digital transformation while ensuring data availability, efficiency, and security — making NetApp a go-to solution for enterprises that treat data as a strategic asset."
+    ]
+  },
+  f5: {
+    name: "F5 Networks",
+    logoPath: "/logos/f5.svg",
+    description: [
+      "F5 Networks delivers secure application delivery and performance optimization solutions that ensure apps are fast, available, and protected — whether hosted on-premises, in the cloud, or in hybrid environments. Their application delivery controllers (ADCs) and web application firewalls are industry standards.",
+      "F5 helps organizations manage traffic intelligently, defend against DDoS and bot attacks, and scale digital services reliably. With a growing focus on automation and API security, F5 empowers businesses to deliver modern applications with confidence and control."
+    ]
+  },
+  checkpoint: {
+    name: "Check Point",
+    logoPath: "/logos/checkpoint.svg",
+    description: [
+      "Check Point is a recognized leader in network, cloud, and endpoint security, providing unified threat management across complex IT environments. Their solutions defend enterprises against the most advanced cyber threats using real-time intelligence and AI-powered prevention.",
+      "With product families like Quantum, Harmony, and CloudGuard, Check Point delivers scalable, integrated security for enterprise networks, remote users, and multi-cloud environments — making them a preferred choice for organizations requiring layered, adaptive protection."
     ]
   }
 }

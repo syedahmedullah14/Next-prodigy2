@@ -23,7 +23,7 @@ const allProducts = [
     name: "Lenovo",
     description: "Lenovo delivers enterprise-grade servers, storage systems, and end-user computing hardware built for performance, reliability, and efficiency. Whether you're managing a data center, deploying edge servers, or upgrading workstations, Lenovo solutions offer the flexibility and support needed to drive digital transformation.",
     slug: "lenovo",
-    logoPath: "/logos/lenovo.svg",
+    logoPath: "/logos/lenovo.png",
     category: "Enterprise Infrastructure"
   },
   {
@@ -44,14 +44,14 @@ const allProducts = [
     name: "Cisco Meraki",
     description: "Cisco Meraki provides a comprehensive suite of cloud-managed networking products including switches, firewalls, wireless access points, and security appliances. With centralized management, built-in analytics, and seamless scalability, Meraki solutions simplify network administration while enhancing visibility and security across distributed environments.",
     slug: "cisco-meraki",
-    logoPath: "/logos/cisco-meraki.svg",
+    logoPath: "/logos/cisco-meraki.png",
     category: "Networking Solutions"
   },
   {
     name: "Juniper",
     description: "Juniper Networks offers cutting-edge networking and security infrastructure designed for high-performance and mission-critical applications. From advanced routing platforms and data center switches to software-defined security, Juniper enables scalable and automated networks that meet the demands of modern enterprises and service providers.",
     slug: "juniper",
-    logoPath: "/logos/juniper.svg",
+    logoPath: "/logos/juniper.png",
     category: "Networking Solutions"
   },
   {
@@ -114,7 +114,7 @@ const allProducts = [
     name: "MikroTik",
     description: "Cost-effective, feature-rich networking equipment with versatile RouterOS for ISPs and enterprises.",
     slug: "mikrotik",
-    logoPath: "/logos/mikrotik.svg",
+    logoPath: "/logos/mikrotik.png",
     category: "Networking Solutions"
   },
   {
@@ -128,14 +128,14 @@ const allProducts = [
     name: "Quantum",
     description: "Specialized storage and data protection solutions for high-volume environments and long-term archiving.",
     slug: "quantum",
-    logoPath: "/logos/quantum.svg",
+    logoPath: "/logos/quantum.png",
     category: "Enterprise Infrastructure"
   },
   {
     name: "Sophos",
     description: "Integrated cybersecurity platform with AI-powered protection for endpoints, networks, and cloud workloads.",
     slug: "sophos",
-    logoPath: "/logos/sophos.svg",
+    logoPath: "/logos/sophos.png",
     category: "Security & Wireless"
   },
   {

@@ -42,7 +42,7 @@ const allProducts = [
     name: "Lenovo",
     description: "Reliable servers, workstations, and infrastructure solutions for modern IT operations.",
     slug: "lenovo",
-    logoPath: "/logos/lenovo.svg",
+    logoPath: "/logos/lenovo.png",
     category: "Enterprise Infrastructure"
   },
   {
@@ -63,14 +63,14 @@ const allProducts = [
     name: "Cisco Meraki",
     description: "Cloud-managed networking for simplified deployment, visibility, and control.",
     slug: "cisco-meraki",
-    logoPath: "/logos/cisco-meraki.svg",
+    logoPath: "/logos/cisco-meraki.png",
     category: "Networking Solutions"
   },
   {
     name: "Juniper",
     description: "High-performance routing, switching, and security for scalable enterprise networks.",
     slug: "juniper",
-    logoPath: "/logos/juniper.svg",
+    logoPath: "/logos/juniper.png",
     category: "Networking Solutions"
   },
   {
@@ -133,7 +133,7 @@ const allProducts = [
     name: "MikroTik",
     description: "Cost-effective, feature-rich networking equipment with versatile RouterOS for ISPs and enterprises.",
     slug: "mikrotik",
-    logoPath: "/logos/mikrotik.svg",
+    logoPath: "/logos/mikrotik.png",
     category: "Networking Solutions"
   },
   {
@@ -147,14 +147,14 @@ const allProducts = [
     name: "Quantum",
     description: "Specialized storage and data protection solutions for high-volume environments and long-term archiving.",
     slug: "quantum",
-    logoPath: "/logos/quantum.svg",
+    logoPath: "/logos/quantum.png",
     category: "Enterprise Infrastructure"
   },
   {
     name: "Sophos",
     description: "Integrated cybersecurity platform with AI-powered protection for endpoints, networks, and cloud workloads.",
     slug: "sophos",
-    logoPath: "/logos/sophos.svg",
+    logoPath: "/logos/sophos.png",
     category: "Security & Wireless"
   },
   {
