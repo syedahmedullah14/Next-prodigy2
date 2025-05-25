@@ -79,35 +79,35 @@ const allProducts = [
     name: "Palo Alto Networks",
     description: "Next-generation security platforms providing advanced threat prevention and comprehensive network security for modern enterprises.",
     slug: "palo-alto",
-    logoPath: "/logos/palo-alto.svg",
+    logoPath: "/logos/palo.png",
     category: "Security & Wireless"
   },
   {
     name: "VMware",
     description: "Virtualization and cloud computing software for optimized data center operations and digital workspace solutions.",
     slug: "vmware",
-    logoPath: "/logos/vmware.svg",
+    logoPath: "/logos/vm.png",
     category: "Enterprise Infrastructure"
   },
   {
     name: "NetApp",
     description: "Data management and storage solutions enabling organizations to accelerate digital transformation with cloud-led innovation.",
     slug: "netapp",
-    logoPath: "/logos/netapp.svg",
+    logoPath: "/logos/net.png",
     category: "Enterprise Infrastructure"
   },
   {
     name: "F5 Networks",
     description: "Application delivery and security solutions ensuring fast, secure, and reliable access to applications and data.",
     slug: "f5",
-    logoPath: "/logos/f5.svg",
+    logoPath: "/logos/f5.png",
     category: "Security & Wireless"
   },
   {
     name: "Check Point",
     description: "Comprehensive security solutions protecting organizations from cyber threats with advanced firewall and threat prevention capabilities.",
     slug: "checkpoint",
-    logoPath: "/logos/checkpoint.svg",
+    logoPath: "/logos/checkpoint.png",
     category: "Security & Wireless"
   },
   {
