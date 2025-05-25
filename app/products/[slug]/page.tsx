@@ -159,6 +159,14 @@ const productDetails = {
       "Check Point is a recognized leader in network, cloud, and endpoint security, providing unified threat management across complex IT environments. Their solutions defend enterprises against the most advanced cyber threats using real-time intelligence and AI-powered prevention.",
       "With product families like Quantum, Harmony, and CloudGuard, Check Point delivers scalable, integrated security for enterprise networks, remote users, and multi-cloud environments — making them a preferred choice for organizations requiring layered, adaptive protection."
     ]
+  },
+  aruba: {
+    name: "Aruba Networks",
+    logoPath: "/logos/aruba.svg",
+    description: [
+      "Aruba provides modern, intelligent networking solutions focused on wireless, secure access, and edge connectivity. Their Wi-Fi 6 access points, SD-WAN platforms, and cloud-managed network solutions deliver enterprise-level performance with AI-powered efficiency.",
+      "With Aruba's solutions, businesses can simplify network operations, strengthen security, and enhance mobile user experiences. At Next Prodigy, we help customers deploy Aruba infrastructure that scales easily and adapts to changing business needs — especially in mobile-first and hybrid work environments"
+    ]
   }
 }
 
