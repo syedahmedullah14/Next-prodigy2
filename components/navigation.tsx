@@ -11,15 +11,15 @@ export default function Navigation() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-slate-900/80 backdrop-blur-sm border-b border-slate-800">
-      <nav className="container mx-auto px-4 py-6">
+      <nav className="container mx-auto px-4 py-2">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center">
-            <Image
+            <Image  
               src="/logo.png"
               alt="Next Prodigy"
-              width={240}
-              height={60}
-              className="h-16 w-auto"
+              width={1000}
+              height={250}
+              className="h-24 w-auto"
             />
           </Link>
           <div className="hidden md:flex items-center space-x-8">
